@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BMICALC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+
+            <label for="mass">Enter your body mass (kg): </label>
+            <input id="mass" type="number">
+            <br>
+            <label for="height">Enter your body height (cm): </label>
+            <input id="height" type="number">
+            <br>
+            <input type="button" id="calc" onclick="clickSub()" value="Calculate">
+        </form>
+        <p class="bmiexp">Your BMI is:</p><br>
+        <h2 id="result">0</h2>
+        <p class="bmistat"></p>
+    </div>
+</body>
+
+</html>
